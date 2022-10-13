@@ -1,0 +1,20 @@
+{
+  "name": "giffyglyph-converter",
+  "version": "1.0.0",
+  "description": "A package to convert giffyglyph monsters to a foundry vtt JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakimassouane2/giffyglyph-converter.git"
+  },
+  "author": "Hakim Assouane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakimassouane2/giffyglyph-converter/issues"
+  },
+  "homepage": "https://github.com/hakimassouane2/giffyglyph-converter#readme"
+}

@@ -1,0 +1,1185 @@
+{
+  "_id": "zrFIF5jhDs8mEQex",
+  "name": "Strahd, Higher Vampire 2/4",
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4,
+        "save": 4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 17
+      },
+      "dex": {
+        "value": 18,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4,
+        "save": 9,
+        "prof": 5,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 17
+      },
+      "con": {
+        "value": 10,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4,
+        "save": 4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 17
+      },
+      "int": {
+        "value": 22,
+        "proficient": 1,
+        "min": 3,
+        "mod": 5,
+        "save": 5,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 18
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 1,
+        "min": 3,
+        "mod": 2,
+        "save": 7,
+        "prof": 5,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 15
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 1,
+        "min": 3,
+        "mod": 4,
+        "save": 9,
+        "prof": 5,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "dc": 17
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16,
+        "min": 0,
+        "formula": "natural armor"
+      },
+      "hp": {
+        "value": 100,
+        "min": 0,
+        "max": 100,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 4,
+        "prof": 0,
+        "total": 4
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "spellcasting": "int",
+      "prof": 5,
+      "spelldc": 18,
+      "spellLevel": 0,
+      "bar1": {
+        "value": 144,
+        "min": 0,
+        "max": 144
+      },
+      "bar2": {
+        "value": 16,
+        "min": 0,
+        "max": 0
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "speed": {
+        "value": "",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "Picture: <a class=\"entity-link\" data-entity=JournalEntry data-id=OTg0YTc0OWQ4ZmMw ><i class=\"fas fa-book-open\"></i>Handout: Strahd von Zarovich<br></a><br><h2>Strahd von Zarovich</h2>With his mind sharp and his heart dark, Strahd von Zarovich is a formidable foe. Courage and lives beyond measure have been lost to him. See <a class=\"entity-link\" data-entity=JournalEntry data-id=YWI3NzNiZWE4OGE2 ><i class=\"fas fa-book-open\"></i>Strahd's History</a> to understand his personality and goals.<br><br>Although Strahd can be encountered almost anywhere in his domain, the vampire is always encountered in the place indicated by the card reading in chapter 1, unless he has been forced into his tomb in the catacombs of Castle Ravenloft.<br><br>\n<hr><section class=\"secret\"><p><strong>GM Notes :</strong> </p><h3>Strahd’s Tactics</h3>Because the entire adventure revolves around Strahd, you must play him intelligently and do everything you can to make him a terrifying and cunning adversary for the player characters.<br><br>When you run an encounter with Strahd, keep the following facts in mind:<br><br><ul><li>Strahd attacks at the most advantageous moment and from the most advantageous position.</li><li>Strahd knows when he’s in over his head. If he begins taking more damage than he can regenerate, he moves beyond the reach of melee combatants and spellcasters, or he flies away (using summoned wolves or swarms of bats or rats to guard his retreat).</li><li>Strahd observes the characters to see who among them are most easily swayed, then tries to charm characters who have low Wisdom scores and use them as thralls. At the very least, he can order a charmed character to guard him against other members of the adventuring party.</li></ul><br><h3>The Vampire’s Minions</h3>Whenever Strahd appears in a location other than his tomb or the place indicated by the card reading, roll a d20 and consult the Strahd’s Minions table to determine what creatures he brings with him, if any.<br><br><h4>Strahd’s Minions</h4><table cellspacing=\"0\" cellpadding=\"0\" style=\"font-size: 13px\"><tbody><tr><td valign=\"top\"><strong>d20</strong></td><td valign=\"top\"><strong>Creatures</strong></td></tr><tr><td valign=\"top\">1–3</td><td valign=\"top\">1d4 + 2 <strong><a class=\"entity-link\" data-entity=Actor data-id=Y2U1NjM4N2M0ZDgw ><i class=\"fas fa-user\"></i>dire wolves</a></strong></td></tr><tr><td valign=\"top\">4–6</td><td valign=\"top\">1d6 + 3 <strong><a class=\"entity-link\" data-entity=Actor data-id=ZjEwNjY5MTM3YjE2 ><i class=\"fas fa-user\"></i>ghouls</a></strong></td></tr><tr><td valign=\"top\">7–9</td><td valign=\"top\">1d4 + 2 <strong><a class=\"entity-link\" data-entity=Actor data-id=ODM2ODk3OGYwN2Nl ><i class=\"fas fa-user\"></i>Strahd zombies</a></strong> </td></tr><tr><td valign=\"top\">10–12 </td><td valign=\"top\">2d4 <strong><a class=\"entity-link\" data-entity=Actor data-id=NjVhZTI3NTMzNjMz ><i class=\"fas fa-user\"></i>swarms of bats</a></strong></td></tr><tr><td valign=\"top\">13–15 </td><td valign=\"top\">1d4 + 1 <strong><a class=\"entity-link\" data-entity=Actor data-id=YWM4NmJjYmJiMGE1 ><i class=\"fas fa-user\"></i>vampire spawn</a></strong></td></tr><tr><td valign=\"top\">16–18 </td><td valign=\"top\">3d6 <strong><a class=\"entity-link\" data-entity=Actor data-id=MWM2Nzc5NjRiZTQy ><i class=\"fas fa-user\"></i>wolves</a></strong></td></tr><tr><td valign=\"top\">19–20 </td><td valign=\"top\">None</td></tr></tbody></table><br>If the characters are in a residence, Strahd’s creatures break through doors and windows to reach them, or crawl up through the earth, or swoop down the chimney. The vampire spawn (all that’s left of a party of adventurers that Strahd defeated long ago) can’t enter the characters’ location unless invited.<br><br><h3>Heart of Sorrow</h3>Strahd can afford to be bold in his tactics, for he has additional protection in the form of a giant crystal heart hidden inside Castle Ravenloft.<br><br>Any damage that Strahd takes is transferred to the Heart of Sorrow (see chapter 4, <a class=\"entity-link\" data-entity=JournalEntry data-id=ZmU0Yjk2NzNiY2U4 ><i class=\"fas fa-book-open\"></i>area K20</a>). If the heart absorbs damage that reduces it to 0 hit points, it is destroyed, and Strahd takes any leftover damage. The Heart of Sorrow has 50 hit points and is restored to that number of hit points each dawn, provided it has at least 1 hit point remaining. Strahd can, as a bonus action on his turn, break his link to the Heart of Sorrow so that it no longer absorbs damage dealt to him. Strahd can reestablish his link to the Heart of Sorrow as a bonus action on his turn, but only while in Castle Ravenloft.<br><br>The effect of the protection afforded by the Heart of Sorrow can be chilling to behold, as damage to Strahd is quickly undone. For example, a critical hit might dislocate Strahd’s jaw, but only for a moment; then the vampire’s jaw quickly resets itself.<br><br>The ability of the Heart of Sorrow to absorb damage is suppressed if it or Strahd is fully within an <em>antimagic field</em>.<br><br><h3>Lair Actions</h3>While Strahd is in Castle Ravenloft, he can take lair actions as long as he isn’t incapacitated.<br><br>On initiative count 20 (losing initiative ties), Strahd can take one of the following lair action options, or forgo using any of them in that round:<br><br><ul><li>Until initiative count 20 of the next round, Strahd can pass through solid walls, doors, ceilings, and floors as if they weren’t there.</li><li>Strahd targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful DC 20 Strength check to force open) until Strahd chooses to end the effect, or until Strahd uses this lair action again.</li><li>Strahd summons the angry spirit of one who has died in the castle. The apparition appears next to a hostile creature that Strahd can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a <strong><a class=\"entity-link\" data-entity=Actor data-id=OTJmMjVhNzNlOWY0 ><i class=\"fas fa-user\"></i>specter</a></strong>.</li><li>Strahd targets one Medium or smaller creature that casts a shadow. The target’s shadow must be visible to Strahd and within 30 feet of him. If the target fails a DC 17 Charisma saving throw, its shadow detaches from it and becomes a <strong><a class=\"entity-link\" data-entity=Actor data-id=ZWZkNWI3YTE5NmE4 ><i class=\"fas fa-user\"></i>shadow</a></strong> that obeys Strahd’s commands, acting on initiative count 20. A <em>greater restoration</em> spell or a <em>remove curse</em> spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed.</li></ul></section>",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "race": "",
+      "type": "undead (shapechanger)",
+      "environment": "",
+      "cr": 12,
+      "spellLevel": 0,
+      "xp": {
+        "value": 13000
+      },
+      "source": "Roll 20",
+      "class": " 1",
+      "notes1name": "",
+      "notes2name": "",
+      "notes3name": "",
+      "notes4name": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "cold"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "necrotic"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "abyssal",
+          "common",
+          "draconic",
+          "elvish",
+          "giant",
+          "infernal"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "arc": {
+        "value": 2,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 5,
+        "passive": 25,
+        "prof": 10,
+        "total": 15
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 5,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 5,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 5,
+        "passive": 15,
+        "prof": 0,
+        "total": 5
+      },
+      "prc": {
+        "value": 2,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 22,
+        "prof": 10,
+        "total": 12
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "rel": {
+        "value": 1,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 5,
+        "passive": 20,
+        "prof": 5,
+        "total": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "ste": {
+        "value": 2,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 24,
+        "prof": 10,
+        "total": 14
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "override": 4,
+        "max": 4
+      },
+      "spell2": {
+        "value": 3,
+        "override": 3,
+        "max": 3
+      },
+      "spell3": {
+        "value": 3,
+        "override": 3,
+        "max": 3
+      },
+      "spell4": {
+        "value": 3,
+        "override": 3,
+        "max": 3
+      },
+      "spell5": {
+        "value": 1,
+        "override": 1,
+        "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null,
+        "max": 0,
+        "level": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 6,
+        "max": 6
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": true,
+        "initiative": 20
+      }
+    }
+  },
+  "sort": 100000,
+  "flags": {
+    "dnd5e": {
+      "saveBonus": 0
+    },
+    "tidy5e-sheet": {
+      "allow-delete": true,
+      "legacy-speed": true,
+      "npcTraitsExpanded": true
+    },
+    "exportSource": {
+      "world": "cos",
+      "system": "dnd5e",
+      "coreVersion": "0.7.7",
+      "systemVersion": "1.2.0"
+    }
+  },
+  "img": "pc/Groupe%20fran%C3%A7ais/StrahdHigher_Vampire_2_4.Avatar.png?1609051751801",
+  "token": {
+    "flags": {
+      "world": {
+        "dancingLights": {
+          "blurAmount": 10,
+          "dimBlurAmount": 10,
+          "type": "none",
+          "startColor": "#ffddbb",
+          "endColor": "#ffddbb",
+          "fireMovement": 5,
+          "blinkFadeColorEnabled": "none",
+          "blinkFadeColor1": "#ff0000",
+          "blinkFadeColor2": "#00ff00",
+          "blinkFadeColor3": "#0000ff",
+          "minFade": 0.4,
+          "maxFade": 1,
+          "speed": 1,
+          "cookiePath": "modules/DancingLights/ColorTest.png",
+          "scaleCookie": true,
+          "cookieScaleValue": 1,
+          "hidden": false,
+          "enabled": false,
+          "blurEnabled": false,
+          "dimBlurEnabled": false,
+          "dimMovement": false,
+          "blinkColorOnly": false,
+          "dimFade": false,
+          "sync": false,
+          "animateDimAlpha": false,
+          "cookieEnabled": false,
+          "makeDefault": false
+        }
+      },
+      "token-hud-wildcard": {
+        "default": ""
+      },
+      "blood-n-guts": {
+        "bloodColor": "",
+        "violenceLevel": "",
+        "floorSplatFont": "",
+        "tokenSplatFont": "",
+        "trailSplatFont": ""
+      }
+    },
+    "name": "Strahd",
+    "displayName": 20,
+    "img": "pc/Groupe%20fran%C3%A7ais/StrahdHigher_Vampire_2_4.Token.png?1609051751801",
+    "tint": "",
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": true,
+    "dimSight": 125,
+    "brightSight": 125,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightColor": "",
+    "lightAlpha": 1,
+    "lightAnimation": {
+      "type": "",
+      "speed": 5,
+      "intensity": 5
+    },
+    "actorId": "zrFIF5jhDs8mEQex",
+    "actorLink": false,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "YmMyM2QyN2MyODdj",
+      "name": "Legendary Resistance (3/day)",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>If Strahd fails a saving throw, he can choose to succeed instead.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 20000,
+      "flags": {},
+      "img": "icons/Ability_Racial_MagicalResistance.png",
+      "effects": []
+    },
+    {
+      "_id": "MDFjNGRhZjlmNTA3",
+      "name": "Regeneration",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Strahd regains 15 hit points at the start of his turn if he has at least 1 hit point and isn&rsquo;t in running water or sunlight. If he takes radiant damage or damage from holy water, this trait doesn&rsquo;t function at the start of his next turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 40000,
+      "flags": {},
+      "img": "icons/SPELL_NATURE_HEALINGTOUCH.png",
+      "effects": []
+    },
+    {
+      "_id": "NWY1OTM0OGNjYzEw",
+      "name": "Spider Climb",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Strahd can climb difficult surfaces, including upside down on ceilings, without having to make an ability check.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 60000,
+      "flags": {},
+      "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_halloween_spider_01.jpg",
+      "effects": []
+    },
+    {
+      "_id": "NWRjYmQ3ZjExMzkw",
+      "name": "Vampire Weaknesses",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div class=\"monster-trait\" style=\"box-sizing: border-box; margin-top: 0.57em; padding-left: 1em; padding-right: 1em; color: #212529; font-family: Roboto, sans-serif; font-size: 13.6px;\">\n<p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;\">&nbsp;</p>\n</div>\n<div class=\"monster-trait\" style=\"box-sizing: border-box; margin-top: 0.57em; padding-left: 1em; padding-right: 1em; color: #212529; font-family: Roboto, sans-serif; font-size: 13.6px;\">\n<p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px;\"><span class=\"name\" style=\"box-sizing: border-box; font-weight: bold; font-style: italic;\">Sunlight Hypersensitivity.</span>&nbsp;<span class=\"detail\" style=\"box-sizing: border-box;\">While in sunlight, Strahd takes 15.1 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks.</span></p>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 70000,
+      "flags": {},
+      "img": "icons/Spell_Shadow_ImprovedVampiricEmbrace.png",
+      "effects": []
+    },
+    {
+      "_id": "ZDljY2NlMzYzZTVh",
+      "name": "Multiattack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><p><strong>Multiattack (Vampire Form Only).</strong>.</p><p>Strahd makes two attacks, only one of which can be a bite attack.</p></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 250000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_dualwield.jpg",
+      "effects": []
+    },
+    {
+      "_id": "ZmEzZTQ2NDdkNzIy",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p><strong>Unarmed Strike (Vampire Form Only).</strong><em>Melee Weapon Attack: </em>+7, Reach 5 ft., one target. <em>Hit : 11</em>&nbsp;(1d8 + 4) bludgeoning damage plus 14 (4d6) necrotic damage.</p>\n<p>If the target is a creature, Strahd can grapple it (escape DC 18) instead of dealing the bludgeoning damage.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": -2,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4+1",
+              "bludgeoning"
+            ],
+            [
+              "1d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true,
+        "attunement": 0
+      },
+      "sort": 260000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_relics_totemofrage.jpg",
+      "effects": []
+    },
+    {
+      "_id": "YjFkNzc5Yzk1MDYz",
+      "name": "Bite",
+      "type": "weapon",
+      "data": {
+        "description": {
+          "value": "<p><strong>Bite (Bate or Vampire Form Only).</strong><em>Melee Weapon Attack: </em>+7, Reach 5 ft., one willing creature, or a creature that is grappled by Strahd, incapacitated, or restrained. <em>Hit : 3</em> (1d4 + 1) piercing damage plus 3 (1d6) necrotic damage.</p>\n<p>The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and Strahd regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under Strahd’s control.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": -2,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d4+1",
+              "piercing"
+            ],
+            [
+              "1d6",
+              "necrotic"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": true,
+        "attunement": 0
+      },
+      "sort": 270000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_ferociousbite.jpg",
+      "effects": []
+    },
+    {
+      "_id": "NDI2NjRmNDE4ZmMw",
+      "name": "Charm",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><p><strong>Charm.</strong>.</p><p>Strahd targets one humanoid he can see within 30 feet of him. If the target can see Strahd, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed. The charmed target regards Strahd as a trusted friend to be heeded and protected. The target isn’t under Strahd’s control, but it takes Strahd’s requests and actions in the most favorable way and lets Strahd bite it.</p><p></p><p>Each time Strahd or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Strahd is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</p></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "wis",
+          "dc": 18,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": false
+        }
+      },
+      "sort": 280000,
+      "flags": {
+        "mess": {
+          "templateTexture": ""
+        }
+      },
+      "img": "icons/Spell_Shadow_Charm.png",
+      "effects": []
+    }
+  ],
+  "effects": []
+}

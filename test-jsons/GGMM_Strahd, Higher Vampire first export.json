@@ -1,0 +1,777 @@
+{
+  "schema_version": 2,
+  "oldId": "-MPYHBQ45VBT95VS07Oj",
+  "name": "Strahd, Higher Vampire",
+  "avatar": "",
+  "bio": "undefined",
+  "gmnotes": "",
+  "defaulttoken": "{\"width\":70,\"height\":70,\"bar1_value\":100,\"bar1_max\":100,\"bar2_value\":16,\"represents\":\"-MPYHBQ45VBT95VS07Oj\",\"name\":\"Strahd, Higher Vampire\",\"imgsrc\":\"/images/character.png\"}",
+  "tags": "[\"[object Object]\",\"[object Object]\",\"solo\",\"lurker\",\"12\"]",
+  "controlledby": "",
+  "inplayerjournals": "",
+  "attribs": [
+    {
+      "name": "npc_options-flag",
+      "current": "0",
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72Ov"
+    },
+    {
+      "name": "npc",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72Ow"
+    },
+    {
+      "name": "l1mancer_status",
+      "current": "completed",
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72Ox"
+    },
+    {
+      "name": "rtype",
+      "current": "{{always=1}} {{r2=[[1d20",
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72Oy"
+    },
+    {
+      "name": "wtype",
+      "current": "@{whispertoggle}",
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72Oz"
+    },
+    {
+      "name": "dtype",
+      "current": "full",
+      "max": "",
+      "id": "-MPYHBQ5tbToRouD72P-"
+    },
+    {
+      "name": "init_tiebreaker",
+      "current": "@{dexterity}/100",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeQ"
+    },
+    {
+      "name": "global_save_mod_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeR"
+    },
+    {
+      "name": "global_skill_mod_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeS"
+    },
+    {
+      "name": "global_attack_mod_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeT"
+    },
+    {
+      "name": "global_damage_mod_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeU"
+    },
+    {
+      "name": "charname_output",
+      "current": "{{charname=@{character_name}}}",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeV"
+    },
+    {
+      "name": "npc_name_flag",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeW"
+    },
+    {
+      "name": "showleveler",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeX"
+    },
+    {
+      "name": "invalidXP",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeY"
+    },
+    {
+      "name": "reaction_flag",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeZ"
+    },
+    {
+      "name": "ggmm_level",
+      "current": 12,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHe_"
+    },
+    {
+      "name": "ggmm_rank",
+      "current": "solo",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHea"
+    },
+    {
+      "name": "ggmm_role",
+      "current": "lurker",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeb"
+    },
+    {
+      "name": "ggmm_attack",
+      "current": 12,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHec"
+    },
+    {
+      "name": "ggmm_damage",
+      "current": 50,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHed"
+    },
+    {
+      "name": "ggmm_dc_primary",
+      "current": 17,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHee"
+    },
+    {
+      "name": "ggmm_dc_secondary",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHef"
+    },
+    {
+      "name": "cd_bar1_m",
+      "current": 100,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeg"
+    },
+    {
+      "name": "cd_bar1_v",
+      "current": 100,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeh"
+    },
+    {
+      "name": "cd_bar2_v",
+      "current": 16,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHei"
+    },
+    {
+      "name": "token_size",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHej"
+    },
+    {
+      "name": "npc_name",
+      "current": "Strahd, Higher Vampire",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHek"
+    },
+    {
+      "name": "npc_sizebase",
+      "current": "medium",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHel"
+    },
+    {
+      "name": "npc_typebase",
+      "current": "undead",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHem"
+    },
+    {
+      "name": "npc_alignmentbase",
+      "current": "lawful evil",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHen"
+    },
+    {
+      "name": "npc_type",
+      "current": "medium undead, lawful evil",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeo"
+    },
+    {
+      "name": "npc_ac",
+      "current": 16,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHep"
+    },
+    {
+      "name": "hp",
+      "current": "",
+      "max": 100,
+      "id": "-MPYHBQ6Oir8HhQbcHeq"
+    },
+    {
+      "name": "npc_hpbase",
+      "current": "100 (14 per player)",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHer"
+    },
+    {
+      "name": "npcd_hp",
+      "current": 100,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHes"
+    },
+    {
+      "name": "npc_hpformula",
+      "current": "14 per player",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHet"
+    },
+    {
+      "name": "npcd_hpformula",
+      "current": "(14 per player)",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHeu"
+    },
+    {
+      "name": "npc_speed",
+      "current": "30 ft",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHev"
+    },
+    {
+      "name": "initiative_bonus",
+      "current": 7,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHew"
+    },
+    {
+      "name": "strength_base",
+      "current": 12,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHex"
+    },
+    {
+      "name": "strength",
+      "current": 12,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHey"
+    },
+    {
+      "name": "strength_mod",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHez"
+    },
+    {
+      "name": "npc_str_save",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf-"
+    },
+    {
+      "name": "npcd_str_save",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf0"
+    },
+    {
+      "name": "npc_str_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf1"
+    },
+    {
+      "name": "npc_str_save_base",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf2"
+    },
+    {
+      "name": "dexterity_base",
+      "current": 18,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf3"
+    },
+    {
+      "name": "dexterity",
+      "current": 18,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf4"
+    },
+    {
+      "name": "dexterity_mod",
+      "current": 4,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf5"
+    },
+    {
+      "name": "npc_dex_save",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf6"
+    },
+    {
+      "name": "npcd_dex_save",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf7"
+    },
+    {
+      "name": "npc_dex_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf8"
+    },
+    {
+      "name": "npc_dex_save_base",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf9"
+    },
+    {
+      "name": "constitution_base",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfA"
+    },
+    {
+      "name": "constitution",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfB"
+    },
+    {
+      "name": "constitution_mod",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfC"
+    },
+    {
+      "name": "npc_con_save",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfD"
+    },
+    {
+      "name": "npcd_con_save",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfE"
+    },
+    {
+      "name": "npc_con_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfF"
+    },
+    {
+      "name": "npc_con_save_base",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfG"
+    },
+    {
+      "name": "intelligence_base",
+      "current": 22,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfH"
+    },
+    {
+      "name": "intelligence",
+      "current": 22,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfI"
+    },
+    {
+      "name": "intelligence_mod",
+      "current": 6,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfJ"
+    },
+    {
+      "name": "npc_int_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfK"
+    },
+    {
+      "name": "npcd_int_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfL"
+    },
+    {
+      "name": "npc_int_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfM"
+    },
+    {
+      "name": "npc_int_save_base",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfN"
+    },
+    {
+      "name": "wisdom_base",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfO"
+    },
+    {
+      "name": "wisdom",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfP"
+    },
+    {
+      "name": "wisdom_mod",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfQ"
+    },
+    {
+      "name": "npc_wis_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfR"
+    },
+    {
+      "name": "npcd_wis_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfS"
+    },
+    {
+      "name": "npc_wis_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfT"
+    },
+    {
+      "name": "npc_wis_save_base",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfU"
+    },
+    {
+      "name": "charisma_base",
+      "current": 16,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfV"
+    },
+    {
+      "name": "charisma",
+      "current": 16,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfW"
+    },
+    {
+      "name": "charisma_mod",
+      "current": 3,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfX"
+    },
+    {
+      "name": "npc_cha_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfY"
+    },
+    {
+      "name": "npcd_cha_save",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfZ"
+    },
+    {
+      "name": "npc_cha_save_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHf_"
+    },
+    {
+      "name": "npc_cha_save_base",
+      "current": 2,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfa"
+    },
+    {
+      "name": "npc_saving_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfb"
+    },
+    {
+      "name": "arcana_bonus",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfc"
+    },
+    {
+      "name": "npc_arcana",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfd"
+    },
+    {
+      "name": "npc_arcana_base",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfe"
+    },
+    {
+      "name": "npc_arcana_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHff"
+    },
+    {
+      "name": "perception_bonus",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfg"
+    },
+    {
+      "name": "npc_perception",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfh"
+    },
+    {
+      "name": "npc_perception_base",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfi"
+    },
+    {
+      "name": "npc_perception_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfj"
+    },
+    {
+      "name": "religion_bonus",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfk"
+    },
+    {
+      "name": "npc_religion",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfl"
+    },
+    {
+      "name": "npc_religion_base",
+      "current": 10,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfm"
+    },
+    {
+      "name": "npc_religion_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfn"
+    },
+    {
+      "name": "stealth_bonus",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfo"
+    },
+    {
+      "name": "npc_stealth",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfp"
+    },
+    {
+      "name": "npc_stealth_base",
+      "current": 14,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfq"
+    },
+    {
+      "name": "npc_stealth_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfr"
+    },
+    {
+      "name": "npc_skills_flag",
+      "current": 1,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfs"
+    },
+    {
+      "name": "npc_vulnerabilities",
+      "current": "",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHft"
+    },
+    {
+      "name": "npc_resistances",
+      "current": "bludgeoning, piercing, and slashing from nonmagical attacks, necrotic",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfu"
+    },
+    {
+      "name": "npc_immunities",
+      "current": "",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfv"
+    },
+    {
+      "name": "npc_condition_immunities",
+      "current": "",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfw"
+    },
+    {
+      "name": "npc_senses",
+      "current": "darkvision 120 ft, passive Perception 24",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfx"
+    },
+    {
+      "name": "npc_languages",
+      "current": "abyssal, common, draconic, elvish, giant, infernal",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfy"
+    },
+    {
+      "name": "npc_challenge",
+      "current": "12",
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHfz"
+    },
+    {
+      "name": "npc_xp",
+      "current": 2100,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHg-"
+    },
+    {
+      "name": "npcspellcastingflag",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHg0"
+    },
+    {
+      "name": "npc_spelldc",
+      "current": 17,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHg1"
+    },
+    {
+      "name": "npc_spellattackmod",
+      "current": 12,
+      "max": "",
+      "id": "-MPYHBQ6Oir8HhQbcHg2"
+    },
+    {
+      "name": "npcreactionsflag",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVE"
+    },
+    {
+      "name": "npc_legendary_actions",
+      "current": 0,
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVF"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVG_name",
+      "current": "Level 12 Solo Lurker",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVH"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVG_desc",
+      "current": "Attack: +12, Damage: 50\n  Attack DCs: Primary DC 17, Secondary DC 17",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVI"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVJ_name",
+      "current": "Paragon Actions",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVK"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVJ_desc",
+      "current": "You may take one Paragon Action per player (minus 1) per round to either move or act.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVL"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVM_name",
+      "current": "Phase Transition (Transformation)",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVN"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVM_desc",
+      "current": "When reduced to 0 hit points, remove all on-going effects on yourself as you transform and start a new phase transition event.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVO"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVP_name",
+      "current": "Regeneration",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVQ"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVP_desc",
+      "current": "You regain 10 hit points at the start of your turn. This regeneration stops for 1 turn if you are hit by radiant damage or damage from holy water, or you are reduced to 0 hit points.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVR"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVS_name",
+      "current": "Spider Climb",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVT"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVS_desc",
+      "current": "You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVU"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVV_name",
+      "current": "Vampire Weaknesses",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVW"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVV_desc",
+      "current": "Strahd has the following flaws:\n\n**Forbiddance.** He can't enter a residence without an invitation from one of the occupants.\n\n**Harmed by Running Water.** He takes 10 acid damage if he ends his turn in running water.\n\n**Stake to the Heart.** If a piercing weapon made of wood is driven into his heart while he is incapacitated in his coffin, he is paralyzed until the stake is removed.\n\n**Sunlight Hypersensitivity**. While in sunlight, Strahd takes 10 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVX"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVY_name",
+      "current": "(Lurker) Guerilla",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kVZ"
+    },
+    {
+      "name": "repeating_npctrait_-MPYHBQ7YILjASJL-kVY_desc",
+      "current": "When you make an attack while hidden, you don’t reveal yourself and can remain in hiding.",
+      "max": "",
+      "id": "-MPYHBQ7YILjASJL-kV_"
+    }
+  ],
+  "abilities": []
+}
